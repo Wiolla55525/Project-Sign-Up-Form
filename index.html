@@ -16,16 +16,16 @@
   <body>
     <div class="wrapper">
       <div class="container row mx-auto my-4 justify-content-center">
-        <div class="col col-sm-4 pr-3" id="image-coffe"></div>
-        <div class="col col-sm-8 pl-5">
+        <div class="col pr-3" id="image-coffe"></div>
+        <div class="col pl-5">
           <blockquote class="blockquote text-left pr-4">
-            <p class="mb-0">
+            <p class="mb-0 mt-3">
               Science may never come up with a better office communication
               system than the coffee break.
             </p>
             <footer class="blockquote-footer pt-2">Earl Wilson</footer>
           </blockquote>
-          <h3 class="">
+          <h3 class="pt-4">
             <strong> Let's do This!</strong>
           </h3>
 
@@ -34,7 +34,7 @@
 
             <form action="#" method="get">
               <div class="row">
-                <div class="form-group col">
+                <div class="form-group col-xs-12 col-md-6">
                   <label for="name">FIRST NAME</label>
                   <input
                     type="text"
@@ -44,7 +44,7 @@
                     placeholder="Thomas"
                   />
                 </div>
-                <div class="form-group col">
+                <div class="form-group col-xs-12 col-md-6">
                   <label for="name">LAST NAME</label>
                   <input
                     type="text"
@@ -56,7 +56,7 @@
                 </div>
               </div>
               <div class="row">
-                <div class="form-group col">
+                <div class="form-group col-xs-12 col-md-6">
                   <label for="email">EMAIL</label>
                   <input
                     type="email"
@@ -65,7 +65,7 @@
                     required="required"
                   />
                 </div>
-                <div class="form-group col">
+                <div class="form-group col-xs-12 col-md-6">
                   <label for="number">PHONE NUMBER</label>
                   <input
                     type="tel"
@@ -76,15 +76,11 @@
                 </div>
               </div>
               <div class="row">
-                <div class="form-group col">
+                <div class="form-group col-xs-12 col-md-6">
                   <label for="password">PASSWORD</label>
-                  <input
-                    type="password"
-                    id="password"
-                    class="form-control"
-                  />
+                  <input type="password" id="password" class="form-control" />
                 </div>
-                <div class="form-group col">
+                <div class="form-group col-xs-12 col-md-6">
                   <label for="confirm_password">CONFIRM PASSWORD</label>
                   <input
                     type="password"
@@ -92,20 +88,25 @@
                     class="form-control"
                   />
                 </div>
-                
               </div>
               <div id="error" class="row pl-3"></div>
               <div class="form-group pt-3">
-                <button type="submit" class="btn btn-dark btn-lg" id="create-Acc-Btn">
+                <button
+                  type="submit"
+                  class="btn btn-dark btn-lg"
+                  id="create-Acc-Btn"
+                >
                   Create Account
                 </button>
-                <p class="py-3" id="log-in-suggest">Already have an account? <a href="#" class="badge badge-pill badge-dark">Log in</a></p>
+                <p class="py-3" id="log-in-suggest">
+                  Already have an account?
+                  <a href="#" class="badge badge-pill badge-dark">Log in</a>
+                </p>
               </div>
             </form>
           </div>
         </div>
       </div>
-     
     </div>
   </body>
 
