@@ -17,3 +17,16 @@ body {
   background-position: center;
   background-size: cover;
 }
+
+.form-group {
+  font-size: 12px;
+}
+
+#log-in-suggest{
+  font-size: 14px;
+}
+
+.blockquote-footer {
+  color: #eae0c8a8;
+  
+}
