@@ -1,1 +1,19 @@
-/*# sourceMappingURL=style.css.map */
+body {
+  background: linear-gradient(105deg, #544d36d3 60%, #726c36c6 60%);
+  max-width: 1550px;
+  min-width: 400px;
+}
+
+.wrapper {
+  font-family: "Comic Sans MS";
+  color: #eae0c8;
+}
+
+#image-coffe {
+  background-image: url(../img/coffee.jpg);
+  min-width: 200px;
+  min-height: 100px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
