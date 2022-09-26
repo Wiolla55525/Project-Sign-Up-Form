@@ -14,87 +14,89 @@
     <link rel="stylesheet" href="./style/style.css" />
   </head>
   <body>
-    <div class="container row">
-        <div class="col">
-            here is a picture
-        </div>
-      <div class="col-md-4 col-md-offset-4 panel-style">
-        <div class="panel panel-default">
-         
-            <h3 class="panel-title">
-              <strong> Let's do This!</strong>
-            </h3>
-          
+    <div class="container row m-5">
+      <div class="col col-sm-4 pr-3">
+       <img src="./img/coffee.jpg" class="img-fluid max-width: 100% height: auto"></div>
+      <div class="col col-sm-8">
+        <div class="">      
+          <blockquote class="blockquote text-left pr-4">
+            <p class="mb-0"> Science may never come up with a 
+              better office communication system than the coffee break.</p>
+            <footer class="blockquote-footer pt-2">Earl Wilson</footer>
+          </blockquote>
+          <h3 class="">
+            <strong> Let's do This!</strong>
+          </h3>
+
           <div class="panel-body">
-                       
             <hr />
 
             <form action="#" method="post">
               <div class="row">
                 <div class="form-group col">
-                <label for="name">FIRST NAME</label>
-                <input
-                  type="text"
-                  id="firstName"
-                  class="form-control"
-                  required="required"
-                  placeholder="Thomas"
-                />
+                  <label for="name">FIRST NAME</label>
+                  <input
+                    type="text"
+                    id="firstName"
+                    class="form-control"
+                    required="required"
+                    placeholder="Thomas"
+                  />
+                </div>
+                <div class="form-group col">
+                  <label for="name">LAST NAME</label>
+                  <input
+                    type="text"
+                    id="lastName"
+                    class="form-control"
+                    required="required"
+                    placeholder="Jameson"
+                  />
+                </div>
               </div>
-              <div class="form-group col">
-                <label for="name">LAST NAME</label>
-                <input
-                  type="text"
-                  id="lastName"
-                  class="form-control"
-                  required="required"
-                  placeholder="Jameson"
-                />
+              <div class="row">
+                <div class="form-group col">
+                  <label for="email">EMAIL</label>
+                  <input
+                    type="email"
+                    id="email"
+                    class="form-control"
+                    required="required"
+                  />
+                </div>
+                <div class="form-group col">
+                  <label for="number">PHONE NUMBER</label>
+                  <input
+                    type="number"
+                    id="numberPhone"
+                    class="form-control"
+                    required="required"
+                  />
+                </div>
               </div>
-            </div>
-            <div class="row">
-              <div class="form-group col">
-                <label for="email">EMAIL</label>
-                <input
-                  type="email"
-                  id="email"
-                  class="form-control"
-                  required="required"
-                />
+              <div class="row">
+                <div class="form-group col">
+                  <label for="password">PASSWORD</label>
+                  <input
+                    type="password"
+                    id="password"
+                    class="form-control"
+                    required="required"
+                  />
+                </div>
+                <div class="form-group col">
+                  <label for="confirm_password">CONFIRM PASSWORD</label>
+                  <input
+                    type="password"
+                    id="confirm_password"
+                    class="form-control"
+                    required="required"
+                  />
+                </div>
               </div>
-              <div class="form-group col">
-                <label for="number">PHONE NUMBER</label>
-                <input
-                  type="number"
-                  id="numberPhone"
-                  class="form-control"
-                  required="required"
-                />
-              </div>
-            </div>
-            <div class="row">
-              <div class="form-group col">
-                <label for="password">PASSWORD</label>
-                <input
-                  type="password"
-                  id="password"
-                  class="form-control"
-                  required="required"
-                />
-              </div>
-              <div class="form-group col">
-                <label for="confirm_password">CONFIRM PASSWORD</label>
-                <input
-                  type="password"
-                  id="confirm_password"
-                  class="form-control"
-                  required="required"
-                />
-              </div>
-            </div>
               <div class="form-group">
                 <button type="submit" class="btn btn-primary btn-block">
-                Create Account
+                  Create Account
                 </button>
                 <p>Already have an account? <a href="#">Log in</a></p>
               </div>
@@ -103,10 +105,7 @@
         </div>
       </div>
     </div>
-    
   </body>
-  
+
   <script src="./script.js"></script>
 </html>
-
-
