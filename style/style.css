@@ -22,11 +22,34 @@ body {
   font-size: 12px;
 }
 
-#log-in-suggest{
+#log-in-suggest {
   font-size: 14px;
 }
 
 .blockquote-footer {
   color: #eae0c8a8;
-  
+}
+
+#error {
+  font-weight: lighter;
+  font-size: 16px;
+  color: #110707;
+  animation: blinkingText 1.2s infinite;
+}
+@keyframes blinkingText {
+  0% {
+    color: #000;
+  }
+  49% {
+    color: #000;
+  }
+  60% {
+    color: transparent;
+  }
+  99% {
+    color: transparent;
+  }
+  100% {
+    color: #000;
+  }
 }
