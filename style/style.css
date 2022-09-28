@@ -10,7 +10,7 @@ body {
 }
 
 #image-coffe {
-  background-image: url(img/coffee.jpg);
+  background-image: url(../img/coffee.jpg);
   min-width: 200px;
   min-height: 100px;
   background-repeat: no-repeat;
@@ -52,6 +52,12 @@ body {
   100% {
     color: #000;
   }
+}
+
+::placeholder {
+  font-size: 15px;
+  font-weight: 100;
+  font-style: italic;
 }
 
 @media (min-width: 992px) {
